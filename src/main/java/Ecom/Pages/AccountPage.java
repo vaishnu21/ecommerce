@@ -24,6 +24,7 @@ public void Login(String username,String password)
 {
 	Username.sendKeys(username);
 	Password.sendKeys(password);
+	System.out.println("Hello");
 	Login.click();
 }
 public void clickorder()
